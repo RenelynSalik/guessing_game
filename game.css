@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(pic2.jpeg);;
+    background-size: cover;
+}
+
+#container {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+#output {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#retryBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: none;
+}
+
+#retryBtn:enabled {
+  background-color: #45a049;
+}
+
